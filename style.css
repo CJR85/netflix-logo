@@ -42,3 +42,15 @@ body {
   right: 0;
   bottom: 0;
 }
+
+.netflix::after {
+  content: '';
+  width: 120%;
+  height: 20px;
+  border-radius: 50%;
+  background: #000;
+  position: absolute;
+  left: -10%;
+  bottom: -10px;
+  z-index: 5;
+}
