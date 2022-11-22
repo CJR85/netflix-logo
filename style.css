@@ -15,5 +15,30 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #fff;
+}
+
+.netflix span {
+  width: 50px;
+  height: 100%;
+  background: #db0001;
+  position: absolute;
+}
+
+.left {
+  left: 0;
+  bottom: 0;
+}
+
+.center {
+  top: 0;
+  left: 0;
+  transform: skewX(22deg);
+  transform-origin: top left;
+  box-shadow: 0 0 50px #000;
+  z-index: 2;
+}
+
+.right {
+  right: 0;
+  bottom: 0;
 }
